@@ -6,14 +6,15 @@ body {
 }
 
 #animals {
-  width: 70%;
+  width: 100%;
 }
 
-.navbar{
+.navbar {
   background: transparent;
 }
 
 .jumbotron {
+  padding: 0px;
   background: transparent;
 }
 
@@ -23,19 +24,17 @@ body {
 }
 
 form {
-  float: right;
-  width: 30%;
+  width: 100%;
   padding: 20px;
 }
 
 label {
-  display: block;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 250px;
   height: 30px;
   margin-bottom: 10px;
   font-size: 18px;

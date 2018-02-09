@@ -12,14 +12,21 @@
 
   <nav class="navbar">
     <form>
-      <div class="form-group row">
-        <label for="animal-form" class="col-lg-6 col-form-label">Add an Animal</label>
-        <div class="col-lg-6">
-          <input type="text" readonly class="form-control-plaintext" id="animal-input" value="velociraptor">
+        <div class="form-group row" id="animal-form">
+          <label for="animal-input" class="col-sm-3 col-form-label text-right" id="animal-input">Add an Animal</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="animal-input" placeholder="Velociraptor">
+          </div>
+          <div class="col-sm-4">
+            <input id="add-animal" type="submit" value="Submit">
+          </div>
+
         </div>
+
       </div>
     </form>
-</nav>
+  </nav>
+
 
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -28,13 +35,6 @@
     </center>
   </div>
 </div>
-
-  <form id="animal-form">
-    <label for="animal-input">Add an animal</label>
-    <input type="text" id="animal-input">
-
-    <input id="add-animal" type="submit" value="Submit">
-  </form>
 
   <div>
     <div class="row" id="animals">
